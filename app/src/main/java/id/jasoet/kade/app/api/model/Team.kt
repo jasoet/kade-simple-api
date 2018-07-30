@@ -1,10 +1,7 @@
-package id.jasoet.kade.app.model
+package id.jasoet.kade.app.api.model
 
 import com.google.gson.annotations.SerializedName
 
-/**
- * Created by root on 1/23/18.
- */
 data class Team(
         @SerializedName("idTeam")
         var teamId: String? = null,

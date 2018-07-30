@@ -24,6 +24,12 @@ android {
     }
 }
 
+kotlin {
+    experimental {
+        coroutines 'enable'
+    }
+}
+
 androidExtensions {
     experimental = true
 }
@@ -40,7 +46,7 @@ dependencies {
     implementation "org.jetbrains.anko:anko-recyclerview-v7:$anko_version"
     implementation "org.jetbrains.anko:anko-recyclerview-v7-coroutines:$anko_version"
     implementation "org.jetbrains.anko:anko-design:$anko_version"
-    implementation 'com.android.support:design:27.1.1'
+    implementation "com.android.support:design:27.1.1"
 
     // Coroutine listeners untuk Anko Layouts
     implementation "org.jetbrains.anko:anko-sdk25-coroutines:$anko_version"

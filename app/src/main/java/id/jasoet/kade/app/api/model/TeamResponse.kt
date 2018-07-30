@@ -1,4 +1,4 @@
-package id.jasoet.kade.app.model
+package id.jasoet.kade.app.api.model
 
 
 data class TeamResponse(

@@ -1,4 +1,4 @@
-package id.jasoet.kade.app.util
+package id.jasoet.kade.app.extension
 
 import android.view.View
 
